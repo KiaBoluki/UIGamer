@@ -7,16 +7,19 @@ I made the design explained in [this video on youtube](https://www.youtube.com/w
 ## [Preview on Github Pages](https://kiaboluki.github.io/UIGamer/)
 
 <hr>
+
 # Navigation
 ## UIGamer
 ### Home  Games  Account  Contact
 
 <hr>
+
 ## Texts 
 ### Your UI Learning Experience just Leveled Up
 We've gamified our system to that you can have a blast learning UI.
 
 <hr>
+
 ## Cards
 ### Headline
 Highlighting the importance of UI education.
