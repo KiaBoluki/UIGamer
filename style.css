@@ -1,0 +1,220 @@
+:root{
+  --dark : #272731;
+  --light: #ddd;
+  --blue: #3244D5;
+  --gray-dark: hsl(240, 10%, 19%);
+  --gray: #888995;
+  --red: #AE2A5B;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  color: var(--light);
+  text-decoration: none;
+  outline:none;
+  border: none;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-feature-settings: "dlig";
+  
+}
+
+body{
+  background-color: var(--dark);
+  min-height: 100vh;
+}
+
+.wrapper{
+  width: 70%;
+  margin: auto;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0 ;
+}
+
+.logo h1{
+  font-size: 1.25rem;
+  
+}
+
+ul{
+  
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-around;
+}
+
+ul li{
+  padding: .5rem 1rem;
+}
+
+
+main{
+  padding-top: 2rem;
+}
+
+section.hero{
+  display: flex;
+  align-items: center;
+  
+}
+section.hero-text{
+  width: 50%;
+}
+section.hero-text h1{
+  font-size: 2.6rem;
+
+}
+section.hero-text h1 span{
+  background-color: var(--blue);
+  padding: .5rem;
+  transform: rotateZ(2deg);
+  display: inline-block;
+  position: relative;
+}
+section.hero-text h1 span::before{
+  content: "";
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  background-image: url('./images/curve-02.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .3;
+  top: -14rem;
+  left: 30%;
+}
+section.hero-text h1 span::after{
+  content: "";
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  background-image: url('./images/curve-01.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: .3;
+  top: -4rem;
+  left: -130%;
+}
+
+
+section.hero-text p{
+  font-size: 1.2rem;
+  padding: 2rem 0;
+}
+section.hero-image{
+  width: 50%;
+  position: relative;
+}
+section.hero-image img{
+  width: 100%;
+}
+
+.bottom{
+  background-color: var(--gray-dark);
+}
+
+.cards-wrapper{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+
+}
+
+.cards{
+  width: 50%;
+  display: flex;
+}
+
+.card{
+  position: relative;
+  top: -6rem;
+  border: .25rem solid;
+  margin-right: 2rem;
+  border-radius: 10px;
+  padding: .5rem 1rem;
+
+}
+
+.card p{
+  color: var(--gray);
+  font-size: .89rem;
+  margin: 1rem 0; 
+}
+.card span{
+  display: inline-block;
+  font-size: .89rem;
+  font-family: "FiraCode NF";
+  font-variant-ligatures: additional-ligatures;
+}
+
+
+
+#card-1{
+  border-color: var(--blue);
+}
+.card a {
+  background-color: var(--blue);
+  padding: .5rem 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#card-2 a{
+  background-color: var(--red);
+}
+#card-2{
+  border-color: var(--red);
+}
+
+.desc{
+  width: 50%;
+}
+.desc h3{
+  padding: 2rem 0;
+}
+.desc p{
+  color: var(--gray)
+}
+
+.comment {
+  
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .0331);
+  position: absolute;
+  padding: 1rem ;
+  border-radius: .31rem;
+}
+
+.profile-image{
+  width: 2.5rem;
+  position: relative;
+}
+.profile-image img{
+  border-radius: 50%;
+  position: absolute;
+  top:-2.5rem;
+}
+
+#comment-1{
+  top: 25%; 
+  left: 40%;
+}
+#comment-2{
+  top: 80%; 
+  left: 10%;
+}
+#comment-3{
+  top: 40%; 
+  left: 15%;
+  z-index: -9;
+}
