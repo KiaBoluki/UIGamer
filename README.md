@@ -2,6 +2,9 @@ I made the design explained in [this video on youtube](https://www.youtube.com/w
 
 ![Preview](images/preview.png)
 
+<hr>
+## [Preview on Github Pages](https://kiaboluki.github.io/UIGamer/)
+<hr>
 # Navigation
 ## UIGamer
 ### Home  Games  Account  Contact
