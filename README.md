@@ -4,23 +4,22 @@ I made the design explained in [this video on youtube](https://www.youtube.com/w
 
 # Navigation
 ## UIGamer
-Home Games Account Contact
+### Home  Games  Account  Contact
 
 <hr>
-# Your UI Learning Experience just Leveled Up
+## Texts 
+### Your UI Learning Experience just Leveled Up
 We've gamified our system to that you can have a blast learning UI.
 
-# Cards
-
 <hr>
-# Highlighting the importance of UI education.
+## Cards
+### Headline
+Highlighting the importance of UI education.
 
-lorem
-
-# Button
+### Button
 Our Games | About us
 
-# Colors
+### Colors
 
 - \#888995
 - \#2c2c35
