@@ -4,7 +4,7 @@ I made the design explained in [this video on youtube](https://www.youtube.com/w
 
 <hr>
 
-##[Preview on Github Pages](https://kiaboluki.github.io/UIGamer/)
+## [Preview on Github Pages](https://kiaboluki.github.io/UIGamer/)
 
 <hr>
 # Navigation
